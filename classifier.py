@@ -21,3 +21,4 @@ print ("Logistic Regression complete!")
 y_pred = LR.predict(X_test)
 
 print(metrics.classification_report(y_test, y_pred))
+print(metrics.confusion_matrix(y_test, y_pred))
