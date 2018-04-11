@@ -1,7 +1,7 @@
 # MNIST-Classifier-in-Scikit-learn
 Hand-written digit recognition using Scikit-learn
 
-##Preprocessing.py
+## Preprocessing.py
 ```
 class Data:
   Methods:
@@ -9,7 +9,7 @@ class Data:
   X_test, y_test = load_test_data()
 ```
 
-##Classifier.py
+## Classifier.py
 
 Classifier = Logistic Regression
 ```
@@ -48,10 +48,10 @@ avg / total       0.92      0.92      0.92     10000
 
 ```
 
-##Full_train.py
+## Full_train.py
 Merge train and test classes and train LR on complete dataset. 
 Store model in model.pkl
 
-##Test.py
+## Test.py
 Input: Image filename
 Output: Processed image + Predicted label
