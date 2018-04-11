@@ -19,7 +19,9 @@ def print_results(y_pred):
 
 LR = joblib.load("model.pkl")
 
-img = Image.open('test.jpg').convert('L')
+filename = str(input("Enter filename: "))
+
+img = Image.open(filename).convert('L')
 img = img.resize((width, height))
 img = PIL.ImageOps.invert(img)
 
