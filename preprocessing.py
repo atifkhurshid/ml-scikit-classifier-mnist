@@ -59,3 +59,4 @@ class Data():
             tmp_label = labels.read(1)
             y[i] = unpack('>B', tmp_label)[0]
         return (X, y)
+
